@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    background-color: rgb(20 20 20);
+
+    .info-contato {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 15px auto 15px auto;
+        padding: 0px 10px 0px 10px;
+        align-content: center;
+
+        div {
+            display: flex;
+            gap: 15px;
+            margin: 10px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .titulo{
+                color: #c39a46;
+                font-size: 15px;
+            }
+        }
+    }
+}

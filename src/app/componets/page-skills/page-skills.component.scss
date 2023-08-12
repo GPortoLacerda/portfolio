@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 950px;
+    margin: 30px auto 30px auto;
+    gap: 30px;
+}
+
+.card {
+    flex: 1 0 150px;
+    max-width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background: #141414;
+    border-radius: 30px;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    transition: 0.5s ease-in;
+    color: #c39a46;
+    // animation: shadow 2.5s normal infinite linear;
+}
+
+// .card:hover{
+//     box-shadow: rgb(219 196 137 / 55%) 0px 5px 15px;
+//     margin-top: 20px;
+// }
+
+
+@keyframes shadow {
+    from {
+        transform: rotateY(0deg);
+        opacity: 0;
+    }
+
+    to {
+       transform: rotateY(180deg);
+       opacity: 1;
+    }
+}
